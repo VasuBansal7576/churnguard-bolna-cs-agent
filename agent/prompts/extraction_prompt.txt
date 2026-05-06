@@ -1,0 +1,5 @@
+health_score: Rate the customer's health from 0-100. 70-100 means engaged and happy. 40-69 means some friction. 0-39 means at-risk of churning.
+risk_label: Yield "Healthy" if health_score >= 70, "Monitor" if 40-69, "At-Risk" if < 40.
+key_blocker: Yield the main problem or blocker mentioned, or "none" if no blockers.
+sentiment: Yield "positive", "neutral", or "frustrated" based on the customer's tone.
+recommendation: Yield "healthy" if no issues, "monitor" if some friction, "escalate" if at-risk.

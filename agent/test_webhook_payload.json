@@ -1,0 +1,41 @@
+{
+  "id": "test-execution-001",
+  "agent_id": "test-agent-id",
+  "batch_id": null,
+  "conversation_time": 215,
+  "total_cost": 50,
+  "status": "completed",
+  "error_message": null,
+  "answered_by_voice_mail": false,
+  "transcript": "Agent: Hi, is this Sarah?\nCustomer: Yes, hi.\nAgent: This is Aria from ChurnGuard. I am on the customer success team and we make it a point to check in around day 7. Is now an okay time for a quick call?\nCustomer: Sure, go ahead.\nAgent: Great. So first, have you had a chance to actually log in and use ChurnGuard since signing up?\nCustomer: Oh yes, I have been meaning to use it but honestly I tried to set up the Slack integration and it just did not work. I gave up after 30 minutes.\nAgent: I am really sorry to hear that. Is that the main thing that has been blocking you?\nCustomer: Yeah, I mean the core app is fine but without Slack integration it is hard to use daily. I am kind of thinking of just cancelling.\nAgent: I completely understand. I will make sure James reaches out to you today personally to help resolve the Slack issue.\nCustomer: Okay, that would be good.\nAgent: Thank you so much for your time, Sarah. Have a great day.",
+  "created_at": "2026-05-05T10:00:00Z",
+  "updated_at": "2026-05-05T10:03:35Z",
+  "telephony_data": {
+    "duration": 215,
+    "to_number": "+919876543210",
+    "from_number": "+1987654007",
+    "recording_url": "https://bolna-call-recordings.s3.us-east-1.amazonaws.com/example/recording.mp3",
+    "hosted_telephony": true,
+    "provider_call_id": "CA42fb13614bfcfeccd94cf33befe14s2f",
+    "call_type": "outbound",
+    "provider": "twilio",
+    "hangup_by": "Agent",
+    "hangup_reason": "Normal Hangup",
+    "ring_duration": 12,
+    "post_dial_delay": 1
+  },
+  "extracted_data": {
+    "health_score": "25",
+    "risk_label": "At-Risk",
+    "key_blocker": "Slack integration failure - gave up after 30 minutes",
+    "sentiment": "frustrated",
+    "recommendation": "escalate"
+  },
+  "context_details": {
+    "customer_name": "Sarah Chen",
+    "company": "Acme Inc.",
+    "product_name": "ChurnGuard",
+    "days_since_signup": "7",
+    "csm_name": "James"
+  }
+}

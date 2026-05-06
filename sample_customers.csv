@@ -1,0 +1,6 @@
+name,email,phone,company,product_name,days_since_signup,csm_name
+Sarah Chen,sarah@acme.io,+919876543210,Acme Inc.,ChurnGuard,7,James
+Rahul Patel,rahul@startupco.com,+919876543211,StartupCo,ChurnGuard,7,James
+Priya Sharma,priya@bigcorp.com,+919876543212,BigCorp,ChurnGuard,30,James
+Michael Lee,michael@devtools.io,+919876543213,DevTools,ChurnGuard,7,James
+Anita Gupta,anita@cloudnine.in,+919876543214,CloudNine,ChurnGuard,30,James
