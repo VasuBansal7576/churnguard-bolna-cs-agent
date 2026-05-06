@@ -36,6 +36,7 @@ User → Dashboard → FastAPI → Bolna (voice call) → Webhook → Supabase �
 ## Demo
 
 - Loom walkthrough: https://www.loom.com/share/6cea95fc47c541ef9a325a68f07c15ad
+- Frontend deployment: https://vasubansal7576.github.io/churnguard-bolna-cs-agent/
 - Backend deployment: https://churnguard-api-production.up.railway.app
 - Bolna webhook endpoint: `https://churnguard-api-production.up.railway.app/api/webhook/bolna`
 
@@ -47,7 +48,7 @@ User → Dashboard → FastAPI → Bolna (voice call) → Webhook → Supabase �
 | Backend | FastAPI + SQLAlchemy (async) + Alembic |
 | Database | Supabase (PostgreSQL + Realtime) |
 | Voice AI | Bolna AI (REST API + webhooks) |
-| Deploy | Railway backend, local/optional Vercel frontend |
+| Deploy | GitHub Pages frontend + Railway backend |
 
 ## Quick Start
 
