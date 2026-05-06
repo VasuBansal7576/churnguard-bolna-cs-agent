@@ -33,6 +33,7 @@ frontend_urls = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=list(dict.fromkeys([*frontend_urls, "http://localhost:3000"])),
+    allow_origin_regex=r"https://(.*\.)?(vercel\.app|github\.io)$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
