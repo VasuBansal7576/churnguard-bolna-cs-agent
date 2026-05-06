@@ -139,7 +139,3 @@ NEXT_PUBLIC_ADMIN_API_KEY=your-admin-api-key
 ## Architecture
 
 See [docs/Architecture.md](docs/Architecture.md) for the full system design.
-
-## License
-
-MIT
